@@ -44,10 +44,11 @@ const Loading = ({ percent }: { percent: number }) => {
 
   // Text items to repeat across all straps
   const strapTexts = [
-    "Full Stack Developer",
-    "Software Engineer",
-    "Data Scientist",
-    "AI ML Engineer",
+    "AI/ML Engineer",
+    "Software Developer",
+    "Deep Learning Enthusiast",
+    "RAG & LLM Developer",
+
   ];
 
   // Calculate number of straps based on window height
@@ -71,7 +72,7 @@ const Loading = ({ percent }: { percent: number }) => {
     <>
       <div className="loading-header">
         <a href="/#" className="loader-title" data-cursor="disable">
-          umar
+          Asad
         </a>
         <div className={`loaderGame ${clicked && "loader-out"}`}>
           <div className="loaderGame-container">
